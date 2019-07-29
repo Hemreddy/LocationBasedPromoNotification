@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB62F2C01A7C7ACB004F0ABF /* ApexBannerViewContorller.m in Sources */ = {isa = PBXBuildFile; fileRef = AB62F2BF1A7C7ACB004F0ABF /* ApexBannerViewContorller.m */; };
+		AB62F2C31A7C8B06004F0ABF /* Apartment.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AB62F2C11A7C8B06004F0ABF /* Apartment.gpx */; };
+		AB62F2C41A7C8B06004F0ABF /* ApexOffice.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AB62F2C21A7C8B06004F0ABF /* ApexOffice.gpx */; };
+		ABC64CD01A7341FA00CC7B9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64CCF1A7341FA00CC7B9E /* main.m */; };
+		ABC64CD31A7341FA00CC7B9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64CD21A7341FA00CC7B9E /* AppDelegate.m */; };
+		ABC64CD61A7341FA00CC7B9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64CD51A7341FA00CC7B9E /* ViewController.m */; };
+		ABC64CD91A7341FA00CC7B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC64CD71A7341FA00CC7B9E /* Main.storyboard */; };
+		ABC64CDB1A7341FA00CC7B9E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC64CDA1A7341FA00CC7B9E /* Images.xcassets */; };
+		ABC64CDE1A7341FA00CC7B9E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABC64CDC1A7341FA00CC7B9E /* LaunchScreen.xib */; };
+		ABC64CEA1A7341FB00CC7B9E /* TruckStopPromosNotifSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64CE91A7341FB00CC7B9E /* TruckStopPromosNotifSampleTests.m */; };
+		ABC64CF51A73422A00CC7B9E /* ApexTruckStopPromoNotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64CF41A73422A00CC7B9E /* ApexTruckStopPromoNotificationController.m */; };
+		ABC64CF71A73429D00CC7B9E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC64CF61A73429D00CC7B9E /* CoreLocation.framework */; };
+		ABC64D021A735BDF00CC7B9E /* ApexBaseDTO.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64CF91A735BDF00CC7B9E /* ApexBaseDTO.m */; };
+		ABC64D031A735BDF00CC7B9E /* ApexConnectionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64CFB1A735BDF00CC7B9E /* ApexConnectionHandler.m */; };
+		ABC64D041A735BDF00CC7B9E /* ApexRequestResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64D001A735BDF00CC7B9E /* ApexRequestResponseHandler.m */; };
+		ABC64D091A735C7300CC7B9E /* ApexFuelStation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64D061A735C7300CC7B9E /* ApexFuelStation.m */; };
+		ABC64D0A1A735C7300CC7B9E /* ApexFuelStationList.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64D081A735C7300CC7B9E /* ApexFuelStationList.m */; };
+		ABC64D0D1A735F9200CC7B9E /* ApexProfileRequestResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64D0C1A735F9200CC7B9E /* ApexProfileRequestResponseHandler.m */; };
+		ABC64D101A73603000CC7B9E /* ApexLoginRequestResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64D0F1A73603000CC7B9E /* ApexLoginRequestResponseHandler.m */; };
+		ABC64D131A7362E300CC7B9E /* ApexTruckStopPromosRequestResponseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64D121A7362E300CC7B9E /* ApexTruckStopPromosRequestResponseHandler.m */; };
+		ABC64D841A75A06400CC7B9E /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC64D831A75A06400CC7B9E /* GoogleMaps.framework */; };
+		ABC64D861A75A08800CC7B9E /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = ABC64D851A75A08800CC7B9E /* GoogleMaps.bundle */; };
+		ABC64D891A75A0C700CC7B9E /* ApexProfileList.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64D881A75A0C700CC7B9E /* ApexProfileList.m */; };
+		ABC64D8C1A75A0D800CC7B9E /* ApexProfileListArray.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64D8B1A75A0D800CC7B9E /* ApexProfileListArray.m */; };
+		ABC64D8F1A75A0E600CC7B9E /* ApexProfileDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64D8E1A75A0E600CC7B9E /* ApexProfileDetail.m */; };
+		ABC64D921A75A1CF00CC7B9E /* ApexAccountBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64D911A75A1CF00CC7B9E /* ApexAccountBalance.m */; };
+		ABC64D951A75A1E500CC7B9E /* ApexBankNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64D941A75A1E500CC7B9E /* ApexBankNumber.m */; };
+		ABC64D981A75A33D00CC7B9E /* ApexStringToRelativeDate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64D971A75A33D00CC7B9E /* ApexStringToRelativeDate.m */; };
+		ABC64D9B1A75A40000CC7B9E /* ApexLoginResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64D9A1A75A40000CC7B9E /* ApexLoginResponse.m */; };
+		ABC64D9E1A75AEB700CC7B9E /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC64D9D1A75AEB700CC7B9E /* NSString+URLEncoding.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABC64CE41A7341FB00CC7B9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABC64CC21A7341FA00CC7B9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABC64CC91A7341FA00CC7B9E;
+			remoteInfo = TruckStopPromosNotifSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB62F2BE1A7C7ACB004F0ABF /* ApexBannerViewContorller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexBannerViewContorller.h; sourceTree = "<group>"; };
+		AB62F2BF1A7C7ACB004F0ABF /* ApexBannerViewContorller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexBannerViewContorller.m; sourceTree = "<group>"; };
+		AB62F2C11A7C8B06004F0ABF /* Apartment.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Apartment.gpx; sourceTree = "<group>"; };
+		AB62F2C21A7C8B06004F0ABF /* ApexOffice.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = ApexOffice.gpx; sourceTree = "<group>"; };
+		AB71E95622EB5565005D82D4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AB71E95822EB5579005D82D4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ABC64CCA1A7341FA00CC7B9E /* TruckStopPromosNotifSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruckStopPromosNotifSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC64CCE1A7341FA00CC7B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC64CCF1A7341FA00CC7B9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABC64CD11A7341FA00CC7B9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABC64CD21A7341FA00CC7B9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABC64CD41A7341FA00CC7B9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABC64CD51A7341FA00CC7B9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABC64CD81A7341FA00CC7B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABC64CDA1A7341FA00CC7B9E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABC64CDD1A7341FA00CC7B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ABC64CE31A7341FB00CC7B9E /* TruckStopPromosNotifSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruckStopPromosNotifSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC64CE81A7341FB00CC7B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABC64CE91A7341FB00CC7B9E /* TruckStopPromosNotifSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TruckStopPromosNotifSampleTests.m; sourceTree = "<group>"; };
+		ABC64CF31A73422A00CC7B9E /* ApexTruckStopPromoNotificationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApexTruckStopPromoNotificationController.h; path = ../ApexTruckStopPromoNotificationController.h; sourceTree = "<group>"; };
+		ABC64CF41A73422A00CC7B9E /* ApexTruckStopPromoNotificationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApexTruckStopPromoNotificationController.m; path = ../ApexTruckStopPromoNotificationController.m; sourceTree = "<group>"; };
+		ABC64CF61A73429D00CC7B9E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ABC64CF81A735BDF00CC7B9E /* ApexBaseDTO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexBaseDTO.h; sourceTree = "<group>"; };
+		ABC64CF91A735BDF00CC7B9E /* ApexBaseDTO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexBaseDTO.m; sourceTree = "<group>"; };
+		ABC64CFA1A735BDF00CC7B9E /* ApexConnectionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexConnectionHandler.h; sourceTree = "<group>"; };
+		ABC64CFB1A735BDF00CC7B9E /* ApexConnectionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexConnectionHandler.m; sourceTree = "<group>"; };
+		ABC64CFC1A735BDF00CC7B9E /* ApexConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexConstants.h; sourceTree = "<group>"; };
+		ABC64CFD1A735BDF00CC7B9E /* ApexDataDowloadDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexDataDowloadDelegate.h; sourceTree = "<group>"; };
+		ABC64CFE1A735BDF00CC7B9E /* ApexDataHandlerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexDataHandlerDelegate.h; sourceTree = "<group>"; };
+		ABC64CFF1A735BDF00CC7B9E /* ApexRequestResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexRequestResponseHandler.h; sourceTree = "<group>"; };
+		ABC64D001A735BDF00CC7B9E /* ApexRequestResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexRequestResponseHandler.m; sourceTree = "<group>"; };
+		ABC64D011A735BDF00CC7B9E /* ApexResponseDataDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexResponseDataDelegate.h; sourceTree = "<group>"; };
+		ABC64D051A735C7300CC7B9E /* ApexFuelStation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexFuelStation.h; sourceTree = "<group>"; };
+		ABC64D061A735C7300CC7B9E /* ApexFuelStation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexFuelStation.m; sourceTree = "<group>"; };
+		ABC64D071A735C7300CC7B9E /* ApexFuelStationList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexFuelStationList.h; sourceTree = "<group>"; };
+		ABC64D081A735C7300CC7B9E /* ApexFuelStationList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexFuelStationList.m; sourceTree = "<group>"; };
+		ABC64D0B1A735F9200CC7B9E /* ApexProfileRequestResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexProfileRequestResponseHandler.h; sourceTree = "<group>"; };
+		ABC64D0C1A735F9200CC7B9E /* ApexProfileRequestResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexProfileRequestResponseHandler.m; sourceTree = "<group>"; };
+		ABC64D0E1A73603000CC7B9E /* ApexLoginRequestResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexLoginRequestResponseHandler.h; sourceTree = "<group>"; };
+		ABC64D0F1A73603000CC7B9E /* ApexLoginRequestResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexLoginRequestResponseHandler.m; sourceTree = "<group>"; };
+		ABC64D111A7362E300CC7B9E /* ApexTruckStopPromosRequestResponseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexTruckStopPromosRequestResponseHandler.h; sourceTree = "<group>"; };
+		ABC64D121A7362E300CC7B9E /* ApexTruckStopPromosRequestResponseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexTruckStopPromosRequestResponseHandler.m; sourceTree = "<group>"; };
+		ABC64D831A75A06400CC7B9E /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		ABC64D851A75A08800CC7B9E /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = ../GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		ABC64D871A75A0C700CC7B9E /* ApexProfileList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexProfileList.h; sourceTree = "<group>"; };
+		ABC64D881A75A0C700CC7B9E /* ApexProfileList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexProfileList.m; sourceTree = "<group>"; };
+		ABC64D8A1A75A0D800CC7B9E /* ApexProfileListArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexProfileListArray.h; sourceTree = "<group>"; };
+		ABC64D8B1A75A0D800CC7B9E /* ApexProfileListArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexProfileListArray.m; sourceTree = "<group>"; };
+		ABC64D8D1A75A0E600CC7B9E /* ApexProfileDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexProfileDetail.h; sourceTree = "<group>"; };
+		ABC64D8E1A75A0E600CC7B9E /* ApexProfileDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexProfileDetail.m; sourceTree = "<group>"; };
+		ABC64D901A75A1CF00CC7B9E /* ApexAccountBalance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexAccountBalance.h; sourceTree = "<group>"; };
+		ABC64D911A75A1CF00CC7B9E /* ApexAccountBalance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexAccountBalance.m; sourceTree = "<group>"; };
+		ABC64D931A75A1E500CC7B9E /* ApexBankNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexBankNumber.h; sourceTree = "<group>"; };
+		ABC64D941A75A1E500CC7B9E /* ApexBankNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexBankNumber.m; sourceTree = "<group>"; };
+		ABC64D961A75A33D00CC7B9E /* ApexStringToRelativeDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexStringToRelativeDate.h; sourceTree = "<group>"; };
+		ABC64D971A75A33D00CC7B9E /* ApexStringToRelativeDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexStringToRelativeDate.m; sourceTree = "<group>"; };
+		ABC64D991A75A40000CC7B9E /* ApexLoginResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApexLoginResponse.h; sourceTree = "<group>"; };
+		ABC64D9A1A75A40000CC7B9E /* ApexLoginResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApexLoginResponse.m; sourceTree = "<group>"; };
+		ABC64D9C1A75AEB700CC7B9E /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		ABC64D9D1A75AEB700CC7B9E /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABC64CC71A7341FA00CC7B9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC64D841A75A06400CC7B9E /* GoogleMaps.framework in Frameworks */,
+				ABC64CF71A73429D00CC7B9E /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC64CE01A7341FB00CC7B9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB71E95522EB5558005D82D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB71E95822EB5579005D82D4 /* CoreLocation.framework */,
+				ABC64D851A75A08800CC7B9E /* GoogleMaps.bundle */,
+				ABC64D831A75A06400CC7B9E /* GoogleMaps.framework */,
+				AB71E95622EB5565005D82D4 /* CoreLocation.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB71E95922EB55CF005D82D4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				AB62F2C11A7C8B06004F0ABF /* Apartment.gpx */,
+				AB62F2C21A7C8B06004F0ABF /* ApexOffice.gpx */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		AB71E95A22EB55E4005D82D4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ABC64CFC1A735BDF00CC7B9E /* ApexConstants.h */,
+				ABC64D9C1A75AEB700CC7B9E /* NSString+URLEncoding.h */,
+				ABC64D9D1A75AEB700CC7B9E /* NSString+URLEncoding.m */,
+				ABC64D961A75A33D00CC7B9E /* ApexStringToRelativeDate.h */,
+				ABC64D971A75A33D00CC7B9E /* ApexStringToRelativeDate.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AB71E95B22EB560C005D82D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABC64D051A735C7300CC7B9E /* ApexFuelStation.h */,
+				ABC64D061A735C7300CC7B9E /* ApexFuelStation.m */,
+				ABC64D071A735C7300CC7B9E /* ApexFuelStationList.h */,
+				ABC64D081A735C7300CC7B9E /* ApexFuelStationList.m */,
+				ABC64CF81A735BDF00CC7B9E /* ApexBaseDTO.h */,
+				ABC64CF91A735BDF00CC7B9E /* ApexBaseDTO.m */,
+				ABC64D931A75A1E500CC7B9E /* ApexBankNumber.h */,
+				ABC64D941A75A1E500CC7B9E /* ApexBankNumber.m */,
+				ABC64D901A75A1CF00CC7B9E /* ApexAccountBalance.h */,
+				ABC64D911A75A1CF00CC7B9E /* ApexAccountBalance.m */,
+				ABC64D8D1A75A0E600CC7B9E /* ApexProfileDetail.h */,
+				ABC64D8E1A75A0E600CC7B9E /* ApexProfileDetail.m */,
+				ABC64D8A1A75A0D800CC7B9E /* ApexProfileListArray.h */,
+				ABC64D8B1A75A0D800CC7B9E /* ApexProfileListArray.m */,
+				ABC64D871A75A0C700CC7B9E /* ApexProfileList.h */,
+				ABC64D881A75A0C700CC7B9E /* ApexProfileList.m */,
+				ABC64D991A75A40000CC7B9E /* ApexLoginResponse.h */,
+				ABC64D9A1A75A40000CC7B9E /* ApexLoginResponse.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AB71E95C22EB5623005D82D4 /* RequestResposneHandler */ = {
+			isa = PBXGroup;
+			children = (
+				ABC64CFD1A735BDF00CC7B9E /* ApexDataDowloadDelegate.h */,
+				ABC64CFE1A735BDF00CC7B9E /* ApexDataHandlerDelegate.h */,
+				ABC64CFF1A735BDF00CC7B9E /* ApexRequestResponseHandler.h */,
+				ABC64D001A735BDF00CC7B9E /* ApexRequestResponseHandler.m */,
+				ABC64D011A735BDF00CC7B9E /* ApexResponseDataDelegate.h */,
+				ABC64D111A7362E300CC7B9E /* ApexTruckStopPromosRequestResponseHandler.h */,
+				ABC64D121A7362E300CC7B9E /* ApexTruckStopPromosRequestResponseHandler.m */,
+				ABC64D0E1A73603000CC7B9E /* ApexLoginRequestResponseHandler.h */,
+				ABC64D0F1A73603000CC7B9E /* ApexLoginRequestResponseHandler.m */,
+				ABC64D0B1A735F9200CC7B9E /* ApexProfileRequestResponseHandler.h */,
+				ABC64D0C1A735F9200CC7B9E /* ApexProfileRequestResponseHandler.m */,
+			);
+			path = RequestResposneHandler;
+			sourceTree = "<group>";
+		};
+		ABC64CC11A7341FA00CC7B9E = {
+			isa = PBXGroup;
+			children = (
+				AB71E95922EB55CF005D82D4 /* New Group */,
+				ABC64CCC1A7341FA00CC7B9E /* TruckStopPromosNotifSample */,
+				AB71E95522EB5558005D82D4 /* Frameworks */,
+				ABC64CF61A73429D00CC7B9E /* CoreLocation.framework */,
+				ABC64CE61A7341FB00CC7B9E /* TruckStopPromosNotifSampleTests */,
+				ABC64CCB1A7341FA00CC7B9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABC64CCB1A7341FA00CC7B9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABC64CCA1A7341FA00CC7B9E /* TruckStopPromosNotifSample.app */,
+				ABC64CE31A7341FB00CC7B9E /* TruckStopPromosNotifSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABC64CCC1A7341FA00CC7B9E /* TruckStopPromosNotifSample */ = {
+			isa = PBXGroup;
+			children = (
+				AB71E95C22EB5623005D82D4 /* RequestResposneHandler */,
+				AB71E95B22EB560C005D82D4 /* Model */,
+				AB71E95A22EB55E4005D82D4 /* Common */,
+				ABC64CFA1A735BDF00CC7B9E /* ApexConnectionHandler.h */,
+				ABC64CFB1A735BDF00CC7B9E /* ApexConnectionHandler.m */,
+				ABC64CF31A73422A00CC7B9E /* ApexTruckStopPromoNotificationController.h */,
+				ABC64CF41A73422A00CC7B9E /* ApexTruckStopPromoNotificationController.m */,
+				ABC64CD11A7341FA00CC7B9E /* AppDelegate.h */,
+				ABC64CD21A7341FA00CC7B9E /* AppDelegate.m */,
+				AB62F2BE1A7C7ACB004F0ABF /* ApexBannerViewContorller.h */,
+				AB62F2BF1A7C7ACB004F0ABF /* ApexBannerViewContorller.m */,
+				ABC64CD41A7341FA00CC7B9E /* ViewController.h */,
+				ABC64CD51A7341FA00CC7B9E /* ViewController.m */,
+				ABC64CD71A7341FA00CC7B9E /* Main.storyboard */,
+				ABC64CDA1A7341FA00CC7B9E /* Images.xcassets */,
+				ABC64CDC1A7341FA00CC7B9E /* LaunchScreen.xib */,
+				ABC64CCD1A7341FA00CC7B9E /* Supporting Files */,
+			);
+			path = TruckStopPromosNotifSample;
+			sourceTree = "<group>";
+		};
+		ABC64CCD1A7341FA00CC7B9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC64CCE1A7341FA00CC7B9E /* Info.plist */,
+				ABC64CCF1A7341FA00CC7B9E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABC64CE61A7341FB00CC7B9E /* TruckStopPromosNotifSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABC64CE91A7341FB00CC7B9E /* TruckStopPromosNotifSampleTests.m */,
+				ABC64CE71A7341FB00CC7B9E /* Supporting Files */,
+			);
+			path = TruckStopPromosNotifSampleTests;
+			sourceTree = "<group>";
+		};
+		ABC64CE71A7341FB00CC7B9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABC64CE81A7341FB00CC7B9E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABC64CC91A7341FA00CC7B9E /* TruckStopPromosNotifSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC64CED1A7341FB00CC7B9E /* Build configuration list for PBXNativeTarget "TruckStopPromosNotifSample" */;
+			buildPhases = (
+				ABC64CC61A7341FA00CC7B9E /* Sources */,
+				ABC64CC71A7341FA00CC7B9E /* Frameworks */,
+				ABC64CC81A7341FA00CC7B9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TruckStopPromosNotifSample;
+			productName = TruckStopPromosNotifSample;
+			productReference = ABC64CCA1A7341FA00CC7B9E /* TruckStopPromosNotifSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABC64CE21A7341FB00CC7B9E /* TruckStopPromosNotifSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABC64CF01A7341FB00CC7B9E /* Build configuration list for PBXNativeTarget "TruckStopPromosNotifSampleTests" */;
+			buildPhases = (
+				ABC64CDF1A7341FB00CC7B9E /* Sources */,
+				ABC64CE01A7341FB00CC7B9E /* Frameworks */,
+				ABC64CE11A7341FB00CC7B9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC64CE51A7341FB00CC7B9E /* PBXTargetDependency */,
+			);
+			name = TruckStopPromosNotifSampleTests;
+			productName = TruckStopPromosNotifSampleTests;
+			productReference = ABC64CE31A7341FB00CC7B9E /* TruckStopPromosNotifSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABC64CC21A7341FA00CC7B9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Hemareddy Halli";
+				TargetAttributes = {
+					ABC64CC91A7341FA00CC7B9E = {
+						CreatedOnToolsVersion = 6.1.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					ABC64CE21A7341FB00CC7B9E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = ABC64CC91A7341FA00CC7B9E;
+					};
+				};
+			};
+			buildConfigurationList = ABC64CC51A7341FA00CC7B9E /* Build configuration list for PBXProject "TruckStopPromosNotifSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABC64CC11A7341FA00CC7B9E;
+			productRefGroup = ABC64CCB1A7341FA00CC7B9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABC64CC91A7341FA00CC7B9E /* TruckStopPromosNotifSample */,
+				ABC64CE21A7341FB00CC7B9E /* TruckStopPromosNotifSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABC64CC81A7341FA00CC7B9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB62F2C31A7C8B06004F0ABF /* Apartment.gpx in Resources */,
+				ABC64CD91A7341FA00CC7B9E /* Main.storyboard in Resources */,
+				ABC64CDE1A7341FA00CC7B9E /* LaunchScreen.xib in Resources */,
+				ABC64CDB1A7341FA00CC7B9E /* Images.xcassets in Resources */,
+				ABC64D861A75A08800CC7B9E /* GoogleMaps.bundle in Resources */,
+				AB62F2C41A7C8B06004F0ABF /* ApexOffice.gpx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC64CE11A7341FB00CC7B9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABC64CC61A7341FA00CC7B9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB62F2C01A7C7ACB004F0ABF /* ApexBannerViewContorller.m in Sources */,
+				ABC64D921A75A1CF00CC7B9E /* ApexAccountBalance.m in Sources */,
+				ABC64D091A735C7300CC7B9E /* ApexFuelStation.m in Sources */,
+				ABC64D0D1A735F9200CC7B9E /* ApexProfileRequestResponseHandler.m in Sources */,
+				ABC64CD61A7341FA00CC7B9E /* ViewController.m in Sources */,
+				ABC64D8C1A75A0D800CC7B9E /* ApexProfileListArray.m in Sources */,
+				ABC64CD31A7341FA00CC7B9E /* AppDelegate.m in Sources */,
+				ABC64D891A75A0C700CC7B9E /* ApexProfileList.m in Sources */,
+				ABC64D9B1A75A40000CC7B9E /* ApexLoginResponse.m in Sources */,
+				ABC64D8F1A75A0E600CC7B9E /* ApexProfileDetail.m in Sources */,
+				ABC64D031A735BDF00CC7B9E /* ApexConnectionHandler.m in Sources */,
+				ABC64D9E1A75AEB700CC7B9E /* NSString+URLEncoding.m in Sources */,
+				ABC64D951A75A1E500CC7B9E /* ApexBankNumber.m in Sources */,
+				ABC64D131A7362E300CC7B9E /* ApexTruckStopPromosRequestResponseHandler.m in Sources */,
+				ABC64D981A75A33D00CC7B9E /* ApexStringToRelativeDate.m in Sources */,
+				ABC64D101A73603000CC7B9E /* ApexLoginRequestResponseHandler.m in Sources */,
+				ABC64D041A735BDF00CC7B9E /* ApexRequestResponseHandler.m in Sources */,
+				ABC64CF51A73422A00CC7B9E /* ApexTruckStopPromoNotificationController.m in Sources */,
+				ABC64D021A735BDF00CC7B9E /* ApexBaseDTO.m in Sources */,
+				ABC64D0A1A735C7300CC7B9E /* ApexFuelStationList.m in Sources */,
+				ABC64CD01A7341FA00CC7B9E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC64CDF1A7341FB00CC7B9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC64CEA1A7341FB00CC7B9E /* TruckStopPromosNotifSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC64CE51A7341FB00CC7B9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABC64CC91A7341FA00CC7B9E /* TruckStopPromosNotifSample */;
+			targetProxy = ABC64CE41A7341FB00CC7B9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABC64CD71A7341FA00CC7B9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC64CD81A7341FA00CC7B9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABC64CDC1A7341FA00CC7B9E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABC64CDD1A7341FA00CC7B9E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABC64CEB1A7341FB00CC7B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABC64CEC1A7341FB00CC7B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABC64CEE1A7341FB00CC7B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TruckStopPromosNotifSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABC64CEF1A7341FB00CC7B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = TruckStopPromosNotifSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ABC64CF11A7341FB00CC7B9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TruckStopPromosNotifSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruckStopPromosNotifSample.app/TruckStopPromosNotifSample";
+			};
+			name = Debug;
+		};
+		ABC64CF21A7341FB00CC7B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TruckStopPromosNotifSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruckStopPromosNotifSample.app/TruckStopPromosNotifSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABC64CC51A7341FA00CC7B9E /* Build configuration list for PBXProject "TruckStopPromosNotifSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC64CEB1A7341FB00CC7B9E /* Debug */,
+				ABC64CEC1A7341FB00CC7B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC64CED1A7341FB00CC7B9E /* Build configuration list for PBXNativeTarget "TruckStopPromosNotifSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC64CEE1A7341FB00CC7B9E /* Debug */,
+				ABC64CEF1A7341FB00CC7B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABC64CF01A7341FB00CC7B9E /* Build configuration list for PBXNativeTarget "TruckStopPromosNotifSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABC64CF11A7341FB00CC7B9E /* Debug */,
+				ABC64CF21A7341FB00CC7B9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABC64CC21A7341FA00CC7B9E /* Project object */;
+}
